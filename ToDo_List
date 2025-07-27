@@ -1,0 +1,9 @@
+todo_list=[]
+task1=input("Enter the first task :")
+todo_list.append(task1)
+task2=input("Enter the second task :")
+todo_list.append(task2)
+task3=input("Enter the third task :")
+todo_list.append(task3)
+print("\n TO-DO LIST :")
+print(todo_list)

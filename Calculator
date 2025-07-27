@@ -1,0 +1,19 @@
+print("CALCULATOR")
+print("Select Operation :")
+print("1.Add")
+print("2. Subtraction")
+print("3. Multiplication")
+print("4. Division")
+choice=input("Enter the choice(1/2/3/4) :")
+n1=int(input("Enter number 1 :"))
+n2=int(input("Enter number 2 :"))
+if(choice=='1'):
+  print("Add :",n1+n2)
+elif(choice=='2'):
+  print("Sub:",n1-n2)
+elif(choice=='3'):
+  print("Mul:",n1*n2)
+elif(choice=='4'):
+  print("Div :",n1/n2)
+else:
+  print("invalid choice")
